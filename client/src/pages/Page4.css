@@ -1,0 +1,83 @@
+.page-4-container {
+    width: 100%;
+    height: calc(100vh - 80px);
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-4-container form {
+    
+    padding: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+    background-color: #dde8ff;
+    border-radius: 10px;
+}
+
+.page-4-container form h2 {
+    font-size: 21px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.page-4-container form > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.page-4-container form > div h2 {
+    color: var(--main-color);
+}
+
+.page-4-container form > div svg {
+    width: 100px;
+}
+
+.page-4-container form input {
+    padding: 6px 10px;
+    width: 100%;
+
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px #0000000f;
+}
+
+.page-4-container form button {
+    margin-top: 10px;
+    padding: 6px 30px;
+    width: 100%;
+
+    background-color: #80ee8e;
+    color: #002304;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    text-align: center;
+
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    .page-4-container form a {
+        padding: 12px 30px;
+    }
+
+    .page-4-container form input {
+        padding: 10px;
+    }
+}

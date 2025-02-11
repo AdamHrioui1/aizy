@@ -1,0 +1,117 @@
+.page-2-container {
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.page-2-container h1 {
+    text-align: center;
+}
+
+
+.page-2-container .cards-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.page-2-container .cards-container .card,
+.page-2-container .cards-container .card-3 {
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+    background-color: #E9EFFC;
+    /* box-shadow: 0 15px 20px #00000020; */
+    border-radius: 10px;
+}
+
+.page-2-container .cards-container .card-3 {
+    max-width: 250px;
+}
+
+.page-2-container .cards-container .card h1,
+.page-2-container .cards-container .card-3 h1 {
+    font-size: 64px;
+    line-height: 70px;
+    text-align: center;
+    color: var(--main-color);
+}
+
+.page-2-container .cards-container .card h2,
+.page-2-container .cards-container .card-3 h2 {
+    color: var(--main-color);
+}
+
+.page-2-container .cards-container .card-3 h2 {
+    margin-bottom: 20px;
+    font-size: 21px;
+    text-align: center;
+}
+
+.page-2-container .cards-container .card svg,
+.page-2-container .cards-container .card-3 svg {
+    width: 120px;
+}
+
+.page-2-container .cards-container .card p,
+.page-2-container .cards-container .card-3 p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.page-2-container .cards-container .card a,
+.page-2-container .cards-container .card-3 a {
+    margin-top: 10px;
+    padding: 12px 30px;
+    background-color: var(--main-color);
+    color: #fff;
+
+    border: none;
+    outline: none;
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.page-2-container .cards-container .card-3 a {
+    margin-top: 20px;
+}
+
+@media (max-width: 420px) {
+    .page-2-container {
+        padding: 20px;
+    }
+
+    .page-2-container h1 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .page-2-container .cards-container .card,
+    .page-2-container .cards-container .card-3 {
+        padding: 40px 20px;
+    }
+
+    .page-2-container .cards-container .card a,
+    .page-2-container .cards-container .card-3 a {
+        padding: 16px 40px;
+    }
+}

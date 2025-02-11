@@ -1,0 +1,286 @@
+.page-1 {
+    margin: 76px auto 0;
+    width: 100%;
+    max-width: 1200px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.page-1 h2 {
+    font-size: 21px;
+    font-weight: 600;
+    color: #f00;
+}
+
+.page-1 span {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.page-1 h1 {
+    margin-bottom: 20px;
+    font-size: 27px;
+}
+
+.page-1 h1 span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.page-1 .table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.page-1 .patient-infos-container {
+    padding: 20px 30px 30px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    background-color: #F1F6FF;
+    border-radius: 10px;
+}
+
+.page-1 .patient-infos-container.second {
+    margin-top: 20px;
+}
+
+.page-1 .patient-infos-container.third {
+    margin: 20px 0;
+    padding: 20px 30px;
+}
+
+.page-1 .patient-infos-container.third p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.page-1 .patient-infos-container.third p span {
+    font-size: 16px;
+    color: #00e000;
+}
+
+.page-1 .patient-infos-container > p {
+    font-size: 19px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.page-1 .patient-infos-container .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    row-gap: 15px;
+}
+
+.page-1 .patient-infos-container .row .col {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-1 .patient-infos-container .row .col span,
+.page-1 .patient-infos-container .row .col label {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.page-1 .patient-infos-container .row .col p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.page-1 .patient-infos-container .row .col input {
+    padding: 6px 10px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px #0000000f;
+}
+
+.page-1 .age-moin-12 {
+    margin: 20px 0;
+    padding: 15px 20px;
+
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    font-size: 24px;
+
+    border-radius: 6px;
+}
+
+.page-1 .suivi-de-patient-p {
+    margin-bottom: 20px;
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.page-1 table {
+    margin-bottom: 40px;
+    width: 100%;
+    min-width: 1000px;
+
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+.page-1 table.normal {
+    width: 100%;
+    min-width: 100%;
+}
+
+.page-1 table tr {
+    border: 1px solid #000;
+}
+
+.page-1 table tr th {
+    padding: 4px 10px;
+    
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #F1F6FF;
+    border: 1px solid #dce8ff;
+}
+
+.page-1 table tr td {
+    padding: 6px 10px;
+
+    text-align: center;
+    font-size: 13px;
+    font-weight: 300;
+    border: 1px solid #dce8ff;
+}
+
+.page-1 table tr td button.delete {
+    color: #f00;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.page-1 table tr td small {
+    font-size: 13px;
+}
+
+.page-1 table tr td.green {
+    color: #00e11c;
+    font-weight: 600;
+}
+
+.page-1 table tr td.red {
+    color: #f00;
+    font-weight: 600;
+}
+
+.page-1 table tr td input {
+    margin-left: 10px;
+}
+
+.page-1 table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.page-1 table tr:nth-child(even) {
+    background-color: #F1F6FF;
+}
+
+.valid-btn {
+    padding: 6px 30px;
+    width: auto;
+    margin-left: auto;
+
+    background-color: #97FEA4;
+    color: #00670D;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    text-decoration: none;
+
+    transition: .4s all ease;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.valid-btn:hover {
+    background-color: #80ee8e;
+}
+
+.big-container.page-1 .ajouter {
+    margin-left: auto;
+    padding: 9px 20px;
+
+    font-weight: 500;
+    color: #00670D;
+    background-color: #80ee8e;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.big-container.page-1 .ajouter svg {
+    width: 20px;
+    height: 20px;
+}
+
+.cross {
+    margin-left: 10px;
+    color: #f00;
+    cursor: pointer;
+}
+
+.vaccins-btns {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.vaccins-btns button {
+    margin-bottom: 40px;
+    padding: 8px 18px;
+    border-radius: 8px;
+
+    background-color: #f0f5ff;
+    color: #000;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.vaccins-btns button.active {
+    background-color: #80ee8e;
+    color: #00670D;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+@media (max-width: 450px) {
+    .page-1 .patient-infos-container .row {
+        width: 100%;
+    }
+
+    .page-1 .patient-infos-container .row .col {
+        width: 100%;
+    }
+
+    .page-1 .patient-infos-container .row .col input {
+        padding: 10px;
+    }
+
+    .big-container.page-1 .ajouter {
+        padding: 14px 40px;
+    }
+
+    .valid-btn {
+        padding: 12px 40px;
+    }
+}
