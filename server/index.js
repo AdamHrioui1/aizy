@@ -15,6 +15,14 @@ app.use('/api/patient', require('./routes/PatientRoutes'))
 app.use('/api/drug', require('./routes/DrugRoutes'))
 app.use('/api/temperature', require('./routes/TemperatureRoutes'))
 
+app.get('/', (req, res) => {
+    try {
+        return res.status(200).json({ success: true, message: 'hello world!' })
+    } catch(error) {
+        return res.status(500).json({ success: false, message: error })
+    }
+})
+
 connection()
 
 app.listen(process.env.PORT, () => console.log(`Server is listening on port: http://localhost:${process.env.PORT}`))
